@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/na_homepager"
+        android:icon="@mipmap/home_n_xhdpi"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/na_circle"
+        android:icon="@mipmap/circle_n_xhdpi"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/na_car"
+        android:title="@string/title_notifications" />
+    <item
+        android:id="@+id/na_find"
+        android:icon="@mipmap/pl"
+        android:title="@string/title_notifications" />
+    <item
+        android:id="@+id/na_my"
+        android:icon="@mipmap/my_n_xhdpi"
+        android:title="@string/title_notifications" />
+
+</menu>

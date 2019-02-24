@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/dp_12"
+    app:cardElevation="2dp"
+    android:layout_margin="@dimen/dp_12"
+    android:layout_height="wrap_content">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="@dimen/dp_30"
+       android:orientation="vertical">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:orientation="horizontal">
+           <com.facebook.drawee.view.SimpleDraweeView
+               android:id="@+id/simp_touxiang_q"
+               android:layout_width="@dimen/dp_50"
+               android:layout_height="@dimen/dp_50"
+               android:src="@mipmap/ic_launcher"/>
+           <TextView
+               android:id="@+id/times"
+               android:gravity="right"
+               android:paddingRight="@dimen/dp_20"
+               android:text="ajbubcin"
+               android:layout_marginTop="@dimen/dp_15"
+               android:layout_width="match_parent"
+               android:layout_height="@dimen/dp_50" />
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:orientation="vertical">
+           <TextView
+               android:id="@+id/title_q"
+               android:text="jhgcugkuayugyiy"
+               android:layout_width="match_parent"
+               android:layout_height="@dimen/dp_30" />
+           <com.facebook.drawee.view.SimpleDraweeView
+               android:id="@+id/simp_tupian_q"
+               android:src="@mipmap/ic_launcher"
+               android:layout_width="match_parent"
+               android:layout_height="@dimen/dp_200" />
+       </LinearLayout>
+   </LinearLayout>
+
+</android.support.v7.widget.CardView>
